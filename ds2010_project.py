@@ -26,8 +26,6 @@ import seaborn as sns
 
 dataset = pd.read_csv('./survey lung cancer.csv')
 
-from google.colab import drive
-drive.mount('/content/drive')
 
 dataset
 
